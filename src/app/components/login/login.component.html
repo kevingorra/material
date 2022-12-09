@@ -1,0 +1,28 @@
+<div class="body">
+    <div class="login">
+        <img src="../../../assets/img/usuario.png"  width="50%">
+        <h1>login </h1>
+        <mat-form-field class="ancho" appearance="fill">
+            <mat-label>Usuario </mat-label>
+            <input matInput>
+           </mat-form-field>
+          <mat-form-field class="ancho" appearance="fill">
+            <mat-label>Contraseña</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            </button>
+          </mat-form-field>
+       
+         
+          <button mat-raised-button color="accent" class="ancho"> Ingresar</button>
+          </div>
+<br><br><br>
+
+
+<div class="example-container">
+   
+  
+ 
+  </div>
+</div>
+
